@@ -18,9 +18,9 @@
 ##   8-> Ksp
 
 ## Security part
-## c++ for  Storing sensitive data
-## R8 - Proguard ->  Shrinking , optimization , obfuscation
-
+## c++ for  Storing sensitive data.
+## R8 - Proguard ->  Shrinking , optimization , obfuscation.
+## SSL/TLS for secure connections.
 
 
 
