@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_5sdp">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_emblem"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@color/blue_500"
+        app:riv_corner_radius="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_competition_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/iv_emblem"
+        app:layout_constraintStart_toEndOf="@+id/iv_emblem"
+        android:layout_marginStart="@dimen/_5sdp"
+        tools:text="Africa Cup"
+        android:fontFamily="@font/omnes_semi_bold"
+        android:textSize="@dimen/_12ssp"
+        />
+
+    <TextView
+        android:id="@+id/tv_area_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Africa"
+        app:layout_constraintStart_toStartOf="@+id/tv_competition_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_competition_name"
+        android:fontFamily="@font/omnes_arabic"
+        android:textSize="@dimen/_10ssp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
